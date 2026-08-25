@@ -1,0 +1,18 @@
+name: phyloclocklab
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - paml
+  - pandas
+  - phyml
+  - mafft
+  - seqkit
+  - biopython
+  - modeltest-ng
+  - python=3.11
+  - numpy
+  - mrbayes
