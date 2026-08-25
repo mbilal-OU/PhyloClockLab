@@ -5,3 +5,10 @@
 
 # NCBI downloaded archives
 *.zip
+
+# Re-downloadable biological source data
+studies/**/data/raw/
+
+# Python generated files
+__pycache__/
+*.py[cod]
