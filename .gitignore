@@ -1,0 +1,7 @@
+# Local reference documents
+*.pdf
+*.docx
+~$*
+
+# NCBI downloaded archives
+*.zip
