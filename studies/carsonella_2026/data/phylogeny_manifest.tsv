@@ -1,0 +1,21 @@
+sample_id	symbiont_taxon	host	paper_accession	ncbi_accession_version	role	source_group
+A	Candidatus Carsonella ruddii	Diaphorina citri	CP197248	CP197248.1	Carsonella	new_2026
+B	Candidatus Carsonella ruddii	Bactericera cockerelli	CP197249	CP197249.1	Carsonella	new_2026
+C	Candidatus Carsonella ruddii	Cacopsylla citrisuga	CP197250	CP197250.1	Carsonella	new_2026
+D	Candidatus Carsonella ruddii	Cacopsylla chinensis	CP197251	CP197251.1	Carsonella	new_2026
+E	Candidatus Carsonella ruddii	Cornegenapsylla sinica	CP197252	CP197252.1	Carsonella	new_2026
+F	Candidatus Carsonella ruddii	Macrohomotoma gladiata	CP197253	CP197253.1	Carsonella	new_2026
+G	Candidatus Carsonella ruddii	Blastopsylla occidentalis	CP197254	CP197254.1	Carsonella	new_2026
+J01	Candidatus Carsonella ruddii	Heteropsylla cubana	NC_018416.1	NC_018416.1	Carsonella	published
+J02	Candidatus Carsonella ruddii	Cacopsylla melanoneura	CP092147.1	CP092147.1	Carsonella	published
+J03	Candidatus Carsonella ruddii	Diaphorina citri	CP146469.1	CP146469.1	Carsonella	published
+J04	Candidatus Carsonella ruddii	Heteropsylla texana	CP003544.1	CP003544.1	Carsonella	published
+J05	Candidatus Carsonella ruddii	Cacopsylla picta	CP102598.1	CP102598.1	Carsonella	published
+J06	Candidatus Carsonella ruddii	Cacopsylla pyri	CP116500.1	CP116500.1	Carsonella	published
+J07	Candidatus Carsonella ruddii	Bactericera trigonica	CP024798.1	CP024798.1	Carsonella	published
+J08	Candidatus Carsonella ruddii	Bactericera cockerelli	CP019943.1	CP019943.1	Carsonella	published
+J09	Candidatus Carsonella ruddii	Ctenarytaina eucalypti	CP003541.1	CP003541.1	Carsonella	published
+J10	Candidatus Carsonella ruddii	Pachypsylla sp. 'celtidis'	CP003545.1	CP003545.1	Carsonella	published
+J11	Candidatus Carsonella ruddii	Pachypsylla venusta	AP009180.1	AP009180.1	Carsonella	published
+CaNd	Candidatus Nardonella dryophthoridicola	Rhynchophorus ferrugineus	CP069383	CP069383.1	outgroup	outgroup
+CaPal	Candidatus Portiera aleyrodidarum	Aleurodicus floccissimus	LN734649	LN734649.1	outgroup	outgroup
