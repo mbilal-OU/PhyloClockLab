@@ -33,6 +33,6 @@ Planned after Study 01. It will be used as the advanced methodological-sensitivi
 
 ## Status
 
-🟡 **Study 01: methods reconstruction and practical replication starting**
+🟡 **Study 01: Stage A methods reconstruction complete; Stage B data provenance and assembled-genome retrieval next.**
 
 No automated pipeline is being added yet. Automation will be earned after the manual analysis is understood.
