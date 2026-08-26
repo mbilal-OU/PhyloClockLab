@@ -1,0 +1,4 @@
+orthogroup	status	reason
+OG0000056	EXCLUDE_PRIMARY	CaNd member lacks convincing GatA homology at protein and genome levels
+OG0000049	EXCLUDE_PRIMARY	20-taxon orthology unsupported; outgroup TilS assignment not independently validated
+OG0000044	SENSITIVITY_ONLY	E member is a genuine but severely truncated transketolase homolog

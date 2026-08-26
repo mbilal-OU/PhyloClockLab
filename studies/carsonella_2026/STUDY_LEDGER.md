@@ -361,3 +361,78 @@ A point is earned only when it can be explained and demonstrated.
 We now have enough verified information to begin **Stage B: accession-controlled data retrieval and inspection**.
 
 No automated analysis pipeline has been added yet. That is intentional.
+
+### Stage C alignment-method decision
+
+- [x] Tested MAFFT run-to-run reproducibility.
+- [x] Identified nondeterminism with multithreaded iterative refinement.
+- [x] Tested deterministic MAFFT configuration.
+- [x] Locked canonical protein alignment command:
+      `mafft --auto --thread 8 --threadit 0`
+- [x] Verified deterministic replicates by SHA256.
+- [x] Verified canonical alignment reproduces the original manual OG0000032 alignment.
+- [ ] Regenerate all 60 single-copy protein alignments canonically.
+- [ ] Recalculate canonical alignment QC.
+- [ ] Inspect canonical QC distribution.
+
+### Stage C problematic-locus diagnosis
+
+- [x] Generated member-level QC for 1,200 sequences (60 loci × 20 taxa).
+- [x] Inspected genomic neighborhoods for OG0000056, OG0000044 and OG0000049.
+- [ ] Test whether CaNd contains an alternative/full-length GatA homolog for OG0000056.
+- [ ] Test whether sample E contains an alternative/full-length transketolase homolog for OG0000044.
+- [ ] Test TilS similarity/domain structure across Carsonella and outgroups for OG0000049.
+- [ ] Finalize locus classifications only after targeted homology checks.
+
+### Stage C targeted-homology checkpoint
+
+- [x] Initial GatA search against CaNd translated proteome: no DIAMOND hit.
+- [x] Initial transketolase search against E translated proteome: no DIAMOND hit.
+- [x] Initial full-length CaNd TilS search against A/D translated proteomes: no DIAMOND hit.
+- [ ] Repeat problematic-locus searches under high-sensitivity settings.
+- [ ] Perform reciprocal short-fragment searches.
+- [ ] Search genomic nucleotide sequences if protein-level evidence remains unresolved.
+- [ ] Do not interpret OG0000049 as confirmed TilS reduction until orthology is independently supported.
+
+### Stage C sensitive-homology interpretation
+
+- [x] OG0000044 E fragment shows detectable transketolase homology.
+- [x] Classify OG0000044 as a severe fragment/truncation candidate.
+- [x] No convincing CaNd GatA protein homolog recovered for OG0000056.
+- [x] OG0000049 A/D members were not independently recovered by full-length TilS search.
+- [x] Retract premature interpretation of OG0000049 as confirmed TilS reduction.
+- [ ] Search underlying genomes for unannotated/fragmented homologous sequence.
+- [ ] Resolve OG0000056 using protein-to-genome search.
+- [ ] Resolve OG0000044 using protein-to-genome search.
+- [ ] Resolve OG0000049 orthology using reciprocal and genome-level evidence.
+
+### Stage C first locus-quality decisions
+
+- [x] OG0000056: exclude from primary strict 20-taxon matrix.
+- [x] OG0000049: exclude from primary strict 20-taxon matrix.
+- [ ] OG0000044: perform final reciprocal fragment-homology validation.
+- [ ] Systematically classify remaining 57 candidate loci.
+- [ ] Freeze final reconstructed locus set before nucleotide back-translation.
+
+### Stage C locus-set freeze
+
+- [x] OG0000056 excluded from primary reconstruction.
+- [x] OG0000049 excluded from primary reconstruction.
+- [x] OG0000044 classified as sensitivity-only partial homolog.
+- [x] Primary conservative dataset frozen at 57 loci.
+- [x] Sensitivity dataset frozen at 58 loci.
+- [ ] Back-translate canonical protein alignments to codon-aware nucleotide alignments.
+- [ ] Validate CDS/protein correspondence for every locus and taxon.
+- [ ] Construct 57-locus nucleotide supermatrix.
+- [ ] Construct 58-locus sensitivity supermatrix.
+
+### Stage C codon-alignment checkpoint
+
+- [x] Back-translated all 60 canonical protein alignments.
+- [x] Validated 1,200 protein/CDS mappings.
+- [x] Generated 60 codon-aware nucleotide alignments.
+- [x] Verified OG0000032: 939 aa → 2,817 nt.
+- [ ] Build 57-locus conservative nucleotide supermatrix.
+- [ ] Build 58-locus sensitivity nucleotide supermatrix.
+- [ ] Validate taxon completeness and supermatrix dimensions.
+- [ ] Run ModelTest-NG on the reconstructed primary nucleotide matrix.
