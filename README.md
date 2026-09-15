@@ -10,7 +10,7 @@ This repository is intentionally built from manual understanding toward automati
 
 ## Study 01 — Carsonella (Wu et al., 2026)
 
-**Paper:** Wu F. et al. *Time-resolved comparative genomics of ‘Candidatus Carsonella ruddii’ across psyllid lineages reveals a conserved core genome and contrasting secondary symbiont dynamics.* Microbial Genomics 12(6), 001727 (2026). DOI: 10.1099/mgen.0.001727
+**Paper:** Wu F. et al. *Time-resolved comparative genomics of ‘Candidatus Carsonella ruddii’ across psyllid lineages reveals a conserved core genome and contrasting secondary symbiont dynamics.* Microbial Genomics 12(6), 001727 (2026). [DOI: 10.1099/mgen.0.001727](https://doi.org/10.1099/mgen.0.001727)
 
 **Learning targets:**
 
